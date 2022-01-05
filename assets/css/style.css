@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,600;0,700;0,900;1,200;1,300;1,400;1,700&display=swap');
+* { margin:0; padding:0; border:0; box-sizing: border-box; }
+body{
+	font-family: 'Titillium Web', sans-serif;
+	
+}
+/*section one start here*/
+.section-one{
+  height: 500px;
+}
+.section-one img{
+  text-align: left;
+}
+.adult-paediatric-b {
+  color: #FFFFFF !important;
+  font-size: 31px;
+  letter-spacing: 1.28px;
+  line-height: 40px;
+  font-weight: 500;
+  margin: 0px 134px;
+  text-align: left;
+}
+.haematology-oncolo {
+  color: #FFFFFF;
+  font-size: 25px;
+  letter-spacing: 3.59px;
+  line-height: 34px;
+  margin: 20px 134px;
+  text-align: left;
+}
+.rectangle-one {
+  background-color: #DD5A6A;
+  border-radius: 3.2px;
+  padding: 9px 21px;
+  color: #fff !important;
+  width: 186px;
+  height: 45px;
+  margin: 0px 134px;
+}
+.sec-oneimg{
+  margin: 20px 134px;
+}
+@media (max-width: 425px) {
+  .adult-paediatric-b {
+  margin: 0px 20px;
+}
+.sec-oneimg {
+  margin: 21px 20px;
+}
+.haematology-oncolo {
+  margin: 0px 20px;
+}
+.rectangle-one {
+  margin: 15px 20px;
+}
+}
+/*section one end here*/
+
+/*section two start here*/
+.flex-container {
+  max-width: 1200px;
+  margin: 63px auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+.flex-item-left {
+  flex: 40%;
+}
+.flex-item-right {
+  flex: 50%;
+  padding: 40px 0px;
+}
+.flex-two-right p{
+    color: #000000;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: left;
+}
+
+@media (max-width: 976px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  .flex-two-left img{
+  	width: 100%;
+  }
+}
+/*section two end here*/
+
+/*section seven(testimonal) design start here*/
+.sec-two{
+  max-width: 1200px;
+   margin: 25px auto;
+    padding: 43px 15px;
+}
+.it-is-a-long-establi{
+  color: #000000;
+  font-size: 15px;
+  line-height: 21px;
+  width: 609px;
+  text-align: left;
+  padding: 20px 0px;
+}
+.mainone{
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 0 20px;
+  width: 100%; 
+  display: grid;
+  grid-auto-rows: 543px; 
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); 
+  grid-gap: 2em;
+}
+
+.articleone {
+  padding: 20px;
+  background-color: #F9F9FF;
+  color: #000;
+}
+.pediatric-bmt {
+  color: #22B78E;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.99px;
+  line-height: 44px;
+  padding: 20px 0px;
+  text-align: center;
+}
+.dr-vijay-agarwal-copy {
+  color: #1D5AA6;
+  font-size: 22px;
+  letter-spacing: 1.76px;
+  line-height: 26px;
+  text-align: center;
+  padding: 20px 0px;
+}
+.md-mrcp-ph-d-cct-le-copy {
+  color: #1D5AA6;
+  font-size: 15px;
+  letter-spacing: 1.2px;
+  text-align: center;
+}
+.dr-vijay-agarwal-is-copy {
+  color: #000000;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 20px 0px;
+  text-align: center;
+}
+.rectangle {
+  background-color: #6078EA;
+  color: #fff;
+  border-radius: 4px;
+  width: 129px;
+  height: 49px;
+  padding: 12px 24px;
+  text-align: center;
+  margin: 0 auto;
+}
+.sectwo-center{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 425px) {
+  .mainone{
+    grid-auto-rows: 623px; 
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+}
+}
+/*section seven(testimonial) design end here*/
+
+
+/*section four design start here*/
+.four-sec{
+  max-width: 1200px;
+   margin: 25px auto;
+    padding: 43px 15px;
+}
+.four-sec ul {
+  list-style: none;
+  padding: 20px;
+}
+
+.four-sec ul li::before {
+  content: "\2022";
+  color: red;
+  padding: 12px 0px;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+/*section four design end here*/
+
+/*grid start here*/
+.grid-type{
+  max-width: 1200px;
+  margin: 25px auto;
+  padding: 43px 15px;
+}
+.the-warning-signs-of {
+  color: #22B78E;
+  font-size: 31px;
+  font-weight: 600;
+  letter-spacing: 1.28px;
+  line-height: 44px;
+  text-align: left;
+}
+main {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 0 20px;
+  width: 100%; 
+  display: grid;
+  grid-auto-rows: 190px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+  grid-gap: 1em;
+}
+
+article {
+  padding: 35px;
+  color: #000000;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: left;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
+}
+
+article p{
+  padding: 15px 0px;
+}
+
+/*grid end here*/
+
+/*accordion start here*/
+
+img {
+  max-width: 100%
+}
+.secsix-addordion{
+  max-width: 1200px;
+   margin: 25px auto;
+}
+.container__accordion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem .5rem;
+}
+
+.accordion {
+  list-style: none;
+  width: 100%;
+}
+.accordion__item {
+  margin-bottom: .8rem;
+  border: 1px solid #F2F2F2;
+  transition: all .2s linear;
+}
+.accordion__item.open {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+}
+.accordion__item__head {
+  padding: 1rem;
+}
+
+.accordion__item__head {
+  background: #FFFFFF;
+  color: #1D5AA6;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.accordion__item__head h2 {
+  font-size: 20px;
+  letter-spacing: 1.6px;
+  line-height: 22px;
+  text-align: left;
+}
+.accordion__item__head i {
+  transition: transform .3s linear;
+}
+.accordion__item.open .accordion__item__head i {
+  transform: rotate(-180deg)
+}
+
+.accordion__item__body {
+  overflow: hidden;
+  height: 0;
+}
+.accordion__item.open .accordion__item__body {
+  padding: 3rem;
+  height: auto;
+}
+.accordion__item__body > *:not(:first-child) {
+  margin-top: .8rem;
+}
+.accordion__item__body p {
+  font-size: .9rem;
+  line-height: 1.3;
+}
+/*accordion end here*/
+
+/*section seven(testimonal) design start here*/
+
+.sec-seven{
+  max-width: 1200px;
+  margin: 25px auto;
+  padding: 43px 15px;
+}
+.it-is-a-long-establi{
+  color: #000000;
+  font-family: StagSans;
+  font-size: 15px;
+  line-height: 21px;
+  width: 609px;
+  text-align: left;
+  padding: 20px 0px;
+}
+
+/*section seven(testimonial) design end here*/
+
+/*section footer start here*/
+footer {
+  background-color: #272727;
+  width: 100%;
+  height: 300px;
+  max-width: 1400px;
+  margin: 0px auto;
+}
+footer p{
+  color: #fff;
+  margin: auto 0;
+  text-align: center;
+  padding: 30px 0px;
+}
+.footer-img{
+  text-align: center;
+  padding-top: 50px;
+}
+/*section footer end here*/
